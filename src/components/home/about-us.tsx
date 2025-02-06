@@ -1,7 +1,8 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { Logo } from '@/components/logo'
+import rmLogoV from '@/assets/rm-logo-v.png'
+import Image from 'next/image'
 
 export function AboutUs() {
   return (
@@ -15,7 +16,7 @@ export function AboutUs() {
             viewport={{ once: true }}
             className="flex justify-center md:w-4/5"
           >
-            <Logo width={345} />
+            <Image src={rmLogoV} alt="Royal Moveis" />
           </motion.div>
           <motion.div className="space-y-6 self-center max-md:text-center">
             <motion.p
@@ -23,7 +24,7 @@ export function AboutUs() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.1, duration: 1 }}
               viewport={{ once: true }}
-              className="text-3xl font-bold text-sky-500 md:text-5xl"
+              className="text-3xl font-bold text-[#254171] md:text-5xl"
             >
               Quem nós somos
             </motion.p>
@@ -34,16 +35,18 @@ export function AboutUs() {
               viewport={{ once: true }}
               className="text-zinc-800 md:text-lg"
             >
-              A missão da RSA é proporcionar a melhor experiência para o usuário
-              final e oferecer um modelo de gestão simples e dinâmico para
-              operadores, permitindo que seu negócio cresça em escala.
+              A missão da Royal Moveis é transformar ambientes com móveis
+              planejados de alta qualidade, oferecendo soluções personalizadas
+              que unem design, funcionalidade e sofisticação. Nosso compromisso
+              é proporcionar uma experiência única para cada cliente, garantindo
+              conforto e aproveitamento máximo dos espaços.
             </motion.p>
             <motion.p
               initial={{ opacity: 0, y: 100 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3, duration: 1 }}
               viewport={{ once: true }}
-              className="text-3xl font-bold text-sky-500 md:text-5xl"
+              className="text-3xl font-bold text-[#254171] md:text-5xl"
             >
               O que nós te oferecemos
             </motion.p>
@@ -55,10 +58,10 @@ export function AboutUs() {
                 viewport={{ once: true }}
                 className="text-zinc-800 md:text-lg"
               >
-                <strong>Mais de 50% EM CONVERSÃO:</strong> Nosso sistema
-                converte até 50% a mais que os outros sistemas do mercado,
-                fazendo com que você tenha até o DOBRO de resultados com o mesmo
-                esforço empregado.
+                <strong>Mais de 50% em aproveitamento de espaço:</strong> Nossos
+                móveis planejados garantem até 50% mais otimização do ambiente
+                em comparação com móveis convencionais, permitindo que você
+                tenha mais funcionalidade e estilo sem comprometer espaço.
               </motion.li>
               <motion.li
                 initial={{ opacity: 0, y: 100 }}
@@ -67,10 +70,10 @@ export function AboutUs() {
                 viewport={{ once: true }}
                 className="text-zinc-800 md:text-lg"
               >
-                <strong>Parceiro de negócios:</strong> Atuamos como verdadeiros
-                Partners, direcionando quanto integrações, políticas,
-                funcionamento e orientação inicial para que você possa começar
-                bem o seu negócio.
+                <strong>Parceiro de projetos:</strong> Atuamos como verdadeiros
+                parceiros, auxiliando desde a concepção do design até a
+                instalação, oferecendo suporte completo para transformar suas
+                ideias em realidade.
               </motion.li>
               <motion.li
                 initial={{ opacity: 0, y: 100 }}
@@ -79,9 +82,10 @@ export function AboutUs() {
                 viewport={{ once: true }}
                 className="text-zinc-800 md:text-lg"
               >
-                <strong>Equipe profissional:</strong> Nosso time é treinado
-                constantemente em prol da excelência na resolução de problemas,
-                suporte e orientações, tudo isso em 24/7.
+                <strong>Equipe profissional:</strong> Nosso time é altamente
+                capacitado e constantemente treinado para entregar soluções
+                inovadoras e um atendimento de excelência, acompanhando cada
+                detalhe do seu projeto do início ao fim.
               </motion.li>
             </ul>
           </motion.div>

@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export function Footer() {
   return (
-    <footer className="w-full bg-slate-800">
+    <footer className="w-full bg-[#254171]">
       <div className="flex justify-center">
         <div className="grid max-w-7xl gap-6 py-8 md:grid-cols-5">
           <div className="flex items-center justify-center">
@@ -15,21 +15,21 @@ export function Footer() {
             <NavigationLinks />
           </div>
           <p className="flex-1 text-justify text-lg text-zinc-200 max-md:p-6 md:col-span-2">
-            A RSA é uma empresa de tecnologia especializada no desenvolvimento
-            de plataformas de jogos e apostas online, com foco no mercado
-            regulado B2B. Oferecemos soluções completas e abrangentes para
-            Sportsbook, Cassino e Loterias, proporcionando uma experiência
-            robusta e confiável para nossos parceiros.
+            A Royal Móveis é uma empresa especializada no desenvolvimento de
+            soluções em móveis planejados para ambientes residenciais e
+            comerciais. Combinamos design, funcionalidade e qualidade para
+            transformar espaços e atender às necessidades dos nossos clientes.
           </p>
           <div className="flex items-center justify-center space-x-4">
-            <Link href="https://www.instagram.com/rsa.bet">
+            <Link href="https://www.instagram.com/royalmoveis_">
               <Instagram size={30} className="text-zinc-200" />
             </Link>
           </div>
         </div>
       </div>
       <div className="bg-slate-900 p-2 text-center text-zinc-200">
-        © {new Date().getFullYear()} RSA. Todos os direitos reservados.
+        © {new Date().getFullYear()} Royal Moveis. Todos os direitos
+        reservados.
       </div>
     </footer>
   )

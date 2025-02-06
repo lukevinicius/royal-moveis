@@ -14,7 +14,7 @@ export function Solutions() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0, duration: 1 }}
           viewport={{ once: true }}
-          className="text-center text-6xl font-bold text-sky-500"
+          className="text-center text-6xl font-bold text-[#254171]"
         >
           Soluções inovadoras
         </motion.p>
@@ -25,24 +25,24 @@ export function Solutions() {
           viewport={{ once: true }}
           className="text-center text-lg text-zinc-800"
         >
-          Porque você precisa de uma equipe preparada e que entenda do mercado
-          de apostas brasileiro. Estamos prontos para atender qualquer demanda e
-          maximizar os seus resultados.
+          Porque você precisa de uma equipe especializada que entenda de design
+          e funcionalidade. Estamos prontos para transformar qualquer ambiente e
+          garantir que cada espaço seja utilizado com eficiência e sofisticação.
         </motion.p>
         <div className="text-center">
-          <Link href="https://calendly.com/lucas-vinicius-guaruba/demonstracao-do-sistema-rsa">
+          <Link href="https://api.whatsapp.com/send?phone=5588988889005&text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento">
             <motion.button
-              whileHover={{ scale: [null, 1.2, 1.1] }}
               initial={{ opacity: 0, y: 100 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
               transition={{ delay: 0.2, duration: 1 }}
+              viewport={{ once: true }}
+              whileHover={{ scale: [null, 1.2, 1.1] }}
             >
               <Button
-                className="h-11 w-full rounded-full border-sky-500 bg-sky-500 text-base font-semibold text-zinc-50 delay-75 hover:bg-sky-500 hover:text-zinc-50"
+                className="h-11 w-full rounded-full border-[#b39667] bg-transparent text-base font-semibold text-[#b39667] delay-75 hover:bg-[#b39667] hover:text-[#f2f2f2]"
                 variant="outline"
               >
-                Agendar Demonstração
+                Solicitar Orçamento
               </Button>
             </motion.button>
           </Link>
@@ -55,13 +55,14 @@ export function Solutions() {
             viewport={{ once: true }}
             className="flex flex-col items-center justify-center space-y-2 text-center"
           >
-            <Headset className="text-sky-500" size={64} />
-            <p className="text-2xl font-bold text-sky-500">Equipe preparada</p>
+            <Headset className="text-[#254171]" size={64} />
+            <p className="text-2xl font-bold text-[#254171]">
+              Equipe preparada
+            </p>
             <p>
-              Problemas técnicos e dúvidas podem surgir a qualquer momento,
-              necessitando de respostas rápidas. São mais de 5 anos de
-              experiência no mercado, e toda essa expertise é colocada em
-              prática em seu sistema.
+              Cada projeto é único! Nossa equipe conta com anos de experiência
+              no mercado, garantindo suporte especializado desde a concepção até
+              a instalação, proporcionando um serviço completo e personalizado.
             </p>
           </motion.div>
           <motion.div
@@ -71,12 +72,12 @@ export function Solutions() {
             viewport={{ once: true }}
             className="flex flex-col items-center justify-center space-y-2 text-center"
           >
-            <Rocket className="text-sky-500" size={64} />
-            <p className="text-2xl font-bold text-sky-500">Performance</p>
+            <Rocket className="text-[#254171]" size={64} />
+            <p className="text-2xl font-bold text-[#254171]">Qualidade</p>
             <p>
-              Expanda seu negócio sem preocupação! Nossa plataforma está
-              construída sob uma infraestrutura de computação, segura, confiável
-              e escalável.
+              Transforme seus ambientes sem preocupações! Nossos móveis são
+              projetados com materiais de alta qualidade e tecnologia de ponta,
+              garantindo durabilidade, sofisticação e um acabamento impecável.
             </p>
           </motion.div>
           <motion.div
@@ -86,11 +87,14 @@ export function Solutions() {
             viewport={{ once: true }}
             className="flex flex-col items-center justify-center space-y-2 text-center"
           >
-            <Gauge className="text-sky-500" size={64} />
-            <p className="text-2xl font-bold text-sky-500">Máxima Otimização</p>
+            <Gauge className="text-[#254171]" size={64} />
+            <p className="text-2xl font-bold text-[#254171]">
+              Máxima Otimização
+            </p>
             <p>
-              Realizamos centenas de atualizações e melhorias a cada ano para
-              ajudar as operações a ficar na vanguarda da indústria.
+              Planejamos cada detalhe para otimizar seu espaço ao máximo. Nossos
+              projetos são pensados para unir funcionalidade e estética, criando
+              ambientes organizados, modernos e confortáveis.
             </p>
           </motion.div>
         </div>

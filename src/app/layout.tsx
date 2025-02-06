@@ -1,10 +1,8 @@
 import type { Metadata } from 'next'
-import { Analytics } from '@vercel/analytics/react'
 import { Montserrat } from 'next/font/google'
 import './globals.css'
 import { Footer } from '@/components/footer'
 import { WhatsappButtom } from '@/components/whatsapp-buttom'
-import { GoogleTagManager } from '@next/third-parties/google'
 
 const inter = Montserrat({
   subsets: ['latin'],
@@ -12,8 +10,8 @@ const inter = Montserrat({
 })
 
 export const metadata: Metadata = {
-  title: 'RSA',
-  description: 'RSA IGaming Platform',
+  title: 'Royal Moveis',
+  description: 'Royal Moveis',
 }
 
 export default function RootLayout({
@@ -23,12 +21,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <GoogleTagManager gtmId="GTM-WRWZNLFF" />
       <body className={inter.className}>
         {children}
         <Footer />
         <WhatsappButtom />
-        <Analytics />
       </body>
     </html>
   )
